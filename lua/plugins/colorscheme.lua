@@ -3,6 +3,8 @@ return {
 
   {
     "LazyVim/LazyVim",
-    opts = nil,
+    opts = {
+      colorscheme = "catppuccin-mocha",
+    },
   },
 }
