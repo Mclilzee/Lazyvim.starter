@@ -1,5 +1,5 @@
 return {
-  { "catppuccin/nvim" },
+  { "catppuccin/nvim", "ellisonleao/gruvbox.nvim" },
 
   {
     "LazyVim/LazyVim",
