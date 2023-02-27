@@ -6,9 +6,14 @@ return {
   },
 
   {
+    "EdenEast/nightfox.nvim",
+  },
+
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-mocha",
+      colorscheme = "carbonfox",
+      transparent = true,
     },
   },
 }
