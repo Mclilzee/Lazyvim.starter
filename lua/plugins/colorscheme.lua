@@ -3,6 +3,11 @@ return {
     "ellisonleao/gruvbox.nvim",
     opts = {
       transparent_mode = true,
+      italic = false,
+      palette_overrides = {
+        -- bright_blue = "#fffbac", -- variable names
+        -- bright_red = "#cc241d", -- keywords
+      },
     },
   },
 
@@ -13,7 +18,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "gruvbox",
     },
   },
 }
